@@ -1,0 +1,10 @@
+const menuOpen = document.querySelector(".open");
+const menubar = document.querySelector(".menubar");
+const menuClose = document.querySelector(".close");
+menuOpen.addEventListener("click", function () {});
+menuOpen.addEventListener("click", function () {
+    menubar.classList.add("open-menubar");
+  });
+menuClose.addEventListener("click", function () {
+    menubar.classList.remove("open-menubar");
+});
