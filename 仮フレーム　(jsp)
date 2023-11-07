@@ -1,0 +1,48 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons%7CMaterial+Icons+Outlined"
+rel="stylesheet"/>
+<link
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+	rel="stylesheet"
+	integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+	crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="sample.css" />
+<title>フレーム</title>
+</head>
+<body>
+	<nav class="navbar navbar-light bg-light">
+	<div class="flex">
+		<div class="left">
+			<span class="material-icons-outlined open"> menu </span>
+		</div>
+		<div class="right">
+			<div class="container-fluid"> 
+				<a class="navbar-brand" href="/ETP/MainMenuServlet"> EduTechPro / サンプル </a>
+			</div>
+		</div>
+	</div>
+	</nav>
+	
+    <div class= "menubar">
+          <span class="material-icons-outlined close">arrow_back_ios</span>
+        <ul>
+          <li>
+            <a href="index.jsp">アカウント</a>
+          </li>
+          <li>
+            <a href="index.jsp">設定</a>
+          </li>
+          <li>
+            <a href="index.jsp">ログアウト</a>
+          </li>
+        </ul>
+      </div>
+      <script src="sample.js"></script>
+
+</body>
+</html>
